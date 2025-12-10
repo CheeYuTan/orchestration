@@ -1,0 +1,9 @@
+{
+	"name": "steven-psa-orchestration",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b1dba90e-8a7a-4e48-8974-ec33ca208656",
+		"tenantId": "9f37a392-f0ae-4280-9796-f1864a10effc"
+	}
+}

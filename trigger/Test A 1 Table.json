@@ -1,0 +1,40 @@
+{
+	"name": "Test A 1 Table",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline_table_ingestion",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"tables_to_ingest": [
+						"customers"
+					]
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2025-12-09T23:25:00",
+				"timeZone": "Singapore Standard Time",
+				"schedule": {
+					"minutes": [
+						0
+					],
+					"hours": [
+						0
+					],
+					"monthDays": [
+						25
+					]
+				}
+			}
+		}
+	}
+}
