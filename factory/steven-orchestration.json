@@ -1,0 +1,9 @@
+{
+	"name": "steven-orchestration",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b62579ab-ccd9-47da-a27c-081c843a8e44",
+		"tenantId": "bf465dc7-3bc8-4944-b018-092572b5c20d"
+	}
+}
